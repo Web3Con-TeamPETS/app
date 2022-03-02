@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import './styles/app.css';
+import './styles/App.css';
 import { ethers } from "ethers";
 import twitterLogo from './assets/twitter-logo.svg';
 import mintingContract from './utils/mintingContract.json';
@@ -139,6 +139,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
+          <p className="header gradient-text">PETS</p>
           <p className="sub-text">
             Each unique. Each beautiful. Discover your NFT today.
           </p>
