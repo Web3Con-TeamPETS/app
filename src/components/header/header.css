@@ -12,15 +12,25 @@
     justify-content:space-between;
     align-items: center;
     width: 100vw;
-    padding: 20px 10px;
+    padding: 20px 0px;
     overflow: hidden;
     background-color: #fff;
+    overflow: hidden;
+}
+
+.menu-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
 .name {
     font-family:'Press Start 2P', cursive;
     font-size: 1.8rem;
-    color: rgb(136, 28, 127);
+    color: #881C7F;
 }
 
 .label-menu {
@@ -42,22 +52,25 @@
 
 .desktop-menu a {
     text-decoration: none;
-    padding-right: 30px;
+    margin-right: 6rem;
     font-family: 'Raleway', sans-serif;
-    font-weight: bolder;
-    color: #1C222E;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #2155be;
 }
 
 .desktop-menu a:hover {
     text-decoration: underline;
-    color: #9cc2f3;
+    color: #0d2e58;
+    transition: 0.8s ease-in-out;
+    transform: scale(1.1) !important;
 }
 
 .main_page {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    width: 100vw;
+    width: 80vw;
     height: 100vh;
 }
 
@@ -66,7 +79,6 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 
 /* .label-menu {
@@ -108,12 +120,39 @@
 .main_text {
     font-family: 'Raleway', sans-serif;
     font-size: 1.3rem;
-    color: #1C222E;
+    font-weight: 900;
+    padding-top: 2rem;
+    color: #2155be;
     text-align: center;
-    padding: 10px 0px;
+    letter-spacing: 0.3rem;
+    line-height: 1.7rem;
     width: 35vw;
 }
 
 .main_house {
     width: 25vw;
 }
+
+.main_button {
+    background: #461742;
+    border-radius: 12px;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
+    margin-top: 30px;
+}
+
+.front {
+    display: block;
+    padding: 12px 42px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    background: #881C7F;
+    color: white;
+    transform: translateY(-6px);
+}
+
+.main_button:active .front {
+    transform: translateY(-2px);
+  }
