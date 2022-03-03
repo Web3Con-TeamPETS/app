@@ -2,12 +2,12 @@ module.exports = async ({ getNamedAccounts, deployments }) => {
   const { deploy } = deployments;
   const { deployer } = await getNamedAccounts();
 
-  await deploy("ERC721", {
+  await deploy("OurHouse", {
     // Learn more about args here: https://www.npmjs.com/package/hardhat-deploy#deploymentsdeploy
     from: deployer,
     args: [],
     log: true,
-    waitConfirmations: 5,
+    waitConfirmations: 0,
   });
 };
-module.exports.tags = ["ERC721"];
+module.exports.tags = ["OurHouse"];
