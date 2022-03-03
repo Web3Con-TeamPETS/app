@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import './styles/app.css';
 import { ethers } from "ethers";
 import twitterLogo from './assets/twitter-logo.svg';
 import mintingContract from './utils/mintingContract.json';
@@ -10,7 +9,7 @@ const OPENSEA_LINK = '';
 const TOTAL_MINT_COUNT = 50;
 const CONTRACT_ADDRESS = "0x508f563A20D8526a14D5C0EAff70BB29eb78adf6";
 
-const App = () => {
+const MintNFT = () => {
 
   const [currentAccount, setCurrentAccount] = useState("");
   
@@ -164,4 +163,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default MintNFT;
