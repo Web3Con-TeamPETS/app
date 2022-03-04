@@ -1,24 +1,12 @@
-.section_2 {
+.section_3 {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 100%;
-    background: #FFF7FC;
-    clip-path: polygon(0 7%, 100% 0, 100% 95%, 0 100%);
     padding: 3rem 0rem;
 }
 
-.section_2_imgs {
-    text-align: center;
-    width: 30%;
-}
-
-.section_2 img {
-    height: 20vh;
-    margin-right: 30px;
-}
-
-.how_content {
+.rent_content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,9 +15,9 @@
     padding: 50px 0px;
 }
 
-.how_title {
+.rent_title {
     font-family:'Press Start 2P', cursive;
-    font-size: 2.2rem;
+    font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
     line-height: 2.6rem;
@@ -38,7 +26,7 @@
     padding-bottom: 20px;
 }
 
-.how_text {
+.rent_text {
     font-family: 'Raleway', sans-serif;
     font-size: 1rem;
     font-weight: 900;
@@ -47,4 +35,8 @@
     line-height: 1.7rem;
     width: 25vw;
     text-align:justify;
+}
+
+.list_img {
+    height: 50vh;
 }
