@@ -15,6 +15,9 @@
     padding: 20px 0px;
     overflow: hidden;
     background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.3);
 }
 
 .menu-content {

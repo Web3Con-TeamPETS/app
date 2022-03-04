@@ -4,7 +4,7 @@ import House from '../../assets/Home_perspective_matte_s.png'
 
 function Header() {
   return (
-    <div className='header'>
+    <div className='header' id='HOME'>
       <div className="menu">
         <div className="menu-content">
           <h1 className='name'>ourHouse DAO</h1>
@@ -13,14 +13,14 @@ function Header() {
               <ul>
                 <li><a href="#HOME">Home</a></li>
                 <li><a href="#HOW IT WORKS">How It Works</a></li>
-                <li><a href="#RENT">Rent Distribution</a></li>
+                <li><a href="#RENT DISTRIBUTION">Rent Distribution</a></li>
               </ul>
             </nav>
             <nav className="desktop-menu">
               <ul>
                 <li><a href="#HOME">Home</a></li>
                 <li><a href="#HOW IT WORKS">How It Works</a></li>
-                <li><a href="#RENT">Rent Distribution</a></li>
+                <li><a href="#RENT DISTRIBUTION">Rent Distribution</a></li>
               </ul>
             </nav>
           </div>

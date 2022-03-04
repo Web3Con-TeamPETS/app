@@ -139,14 +139,16 @@ const MintNFT = () => {
       <div className="container">
         <div className="header-container">
           <p className="sub-text">
-            Each unique. Each beautiful. Discover your NFT today.
+            Mint our NFT to help fund our project!
           </p>
           {currentAccount === "" ? (
             renderNotConnectedContainer()
           ) : (
-            <button onClick={askContractToMintNft} className="cta-button connect-wallet-button">
-              Mint NFT
-            </button>
+            <button onClick={askContractToMintNft} className='main_button'>
+            <span className="front">
+              Mint Now
+            </span>
+          </button>
           )}
         </div>
         <div className="footer-container">

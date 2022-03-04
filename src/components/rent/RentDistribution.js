@@ -1,25 +1,19 @@
 import React from 'react'
-import './HowItWorks.css'
-import people from '../../assets/people.png'
-import flow from '../../assets/flow.png'
-import money from '../../assets/money.png'
+import './RentDistribution.css'
+import list from '../../assets/list.png'
 
-function HowItWorks() {
+function RentDistribution() {
   return (
-    <div className='section_2' id='HOW IT WORKS'>
-        <div className='section_2_imgs'>
-            <img src={people} alt='people' className='people_img'/>
-            <img src={money} alt='money' className='money_img'/>
-            <img src={flow} alt='flow' className='flow_img'/>
-        </div>
-        <div className='how_content'>
-           <h1 className='how_title'>How It Works</h1>
-            <p className='how_text'>
+    <div className='section_3' id='RENT DISTRIBUTION'>
+        <div className='rent_content'>
+            <h1 className='rent_title'>Rent Distribution</h1>
+            <p className='rent_text'>
                 Individuals will be accepted into homes based off their debt-to-income ratio and the amount of time left of their loan. The drive here is to benefit those who need it most, first.
             </p> 
         </div>  
+        <img src={list} alt='List' className='list_img'/>
     </div>
   )
 }
 
-export default HowItWorks
+export default RentDistribution
