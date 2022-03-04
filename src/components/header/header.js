@@ -12,14 +12,14 @@ function Header() {
             <nav className="label-menu">
               <ul>
                 <li><a href="#HOME">Home</a></li>
-                <li><a href="#ABOUT">About</a></li>
+                <li><a href="#HOW IT WORKS">How It Works</a></li>
                 <li><a href="#RENT">Rent Distribution</a></li>
               </ul>
             </nav>
             <nav className="desktop-menu">
               <ul>
                 <li><a href="#HOME">Home</a></li>
-                <li><a href="#ABOUT">About</a></li>
+                <li><a href="#HOW IT WORKS">How It Works</a></li>
                 <li><a href="#RENT">Rent Distribution</a></li>
               </ul>
             </nav>
