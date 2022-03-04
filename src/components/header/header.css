@@ -3,19 +3,18 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
 }
 
 .menu {
     display: flex;
     justify-content:space-between;
     align-items: center;
-    width: 100vw;
+    width: 100%;
+    height: 10vh;
     padding: 20px 0px;
     overflow: hidden;
     background-color: #fff;
-    overflow: hidden;
 }
 
 .menu-content {
@@ -52,7 +51,7 @@
 
 .desktop-menu a {
     text-decoration: none;
-    margin-right: 6rem;
+    margin-right: 25px;
     font-family: 'Raleway', sans-serif;
     font-size: 1.2rem;
     font-weight: 600;
