@@ -1,7 +1,9 @@
 import React from 'react';
-import './header.css'
-import House from '../../assets/Home_perspective_matte_s.png'
+import './header.css';
+import { Link } from 'react-router-dom';
+import House from '../../assets/Home_perspective_matte_s.png';
 import Mint from '../mintNFT/Mint';
+
 
 function Header() {
   return (
@@ -35,11 +37,13 @@ function Header() {
           <h2 className="main_text">
             By purchasing property and providing the income from those properties as student loan relief, we are tackling the tension between millennials and landlords and re-distributing that revenue to those who need it most.
           </h2>
-          <button className='main_button'>
-            <span className="front">
-              Apply Now!
-            </span>
-          </button>
+          <Link to={`/form`}>
+            <button className='main_button'>
+              <span className="front">
+                Apply Now! 
+              </span>
+            </button>
+          </Link>
               <Mint />
         </div>
         <img src={House} alt='house' className='main_house'/>
