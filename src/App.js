@@ -1,18 +1,19 @@
 import React from 'react';
-import Header from './components/header/header'
-import How from './components/how/HowItWorks'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/home/Home';
 import './App.css'
-import RentDistribution from './components/rent/RentDistribution';
+import ApplyForm from './pages/form/form';
 
 
 const App = () => {
 
   return (
-    <div className="App">
-      <Header />
-      <How />
-      <RentDistribution />
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/form" element={<ApplyForm />} />
+      </Routes>
+    </Router>
   );
 };
 
