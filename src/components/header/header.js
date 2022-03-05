@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css'
 import House from '../../assets/Home_perspective_matte_s.png'
+import Mint from '../mintNFT/Mint';
 
 function Header() {
   return (
@@ -12,6 +13,7 @@ function Header() {
             <nav className="label-menu">
               <ul>
                 <li><a href="#HOME">Home</a></li>
+                <li><a href="https://docs.google.com/document/d/1c5yWK-9FUp5vjSA7Nz6Ixd0trgemed5FvJBD992YqtA/edit?usp=sharing" target='_blank'>Whitepaper</a></li>
                 <li><a href="#HOW IT WORKS">How It Works</a></li>
                 <li><a href="#RENT DISTRIBUTION">Rent Distribution</a></li>
               </ul>
@@ -19,6 +21,7 @@ function Header() {
             <nav className="desktop-menu">
               <ul>
                 <li><a href="#HOME">Home</a></li>
+                <li><a href="https://docs.google.com/document/d/1c5yWK-9FUp5vjSA7Nz6Ixd0trgemed5FvJBD992YqtA/edit?usp=sharing" target='_blank'>Whitepaper</a></li>
                 <li><a href="#HOW IT WORKS">How It Works</a></li>
                 <li><a href="#RENT DISTRIBUTION">Rent Distribution</a></li>
               </ul>
@@ -37,6 +40,7 @@ function Header() {
               Apply Now!
             </span>
           </button>
+              <Mint />
         </div>
         <img src={House} alt='house' className='main_house'/>
       </main> 
