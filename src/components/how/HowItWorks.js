@@ -15,7 +15,7 @@ function HowItWorks() {
         <div className='how_content'>
            <h1 className='how_title'>How It Works</h1>
             <p className='how_text'>
-                Individuals will be accepted into homes based off their debt-to-income ratio and the amount of time left of their loan. The drive here is to benefit those who need it most, first.
+                Individuals will be accepted into homes based off their debt-to-income ratio and the remainder of their loan. The drive here is to benefit those who need it most, first.
             </p> 
         </div>  
     </div>

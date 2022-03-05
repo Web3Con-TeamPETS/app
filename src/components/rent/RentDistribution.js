@@ -8,7 +8,13 @@ function RentDistribution() {
         <div className='rent_content'>
             <h1 className='rent_title'>Rent Distribution</h1>
             <p className='rent_text'>
-                Individuals will be accepted into homes based off their debt-to-income ratio and the amount of time left of their loan. The drive here is to benefit those who need it most, first.
+            When an Individual pays rent to one of these properties, the funds are dispersed between 3 categories.
+            <br></br> 
+            1. DAO Maintenance (like software & management)
+            <br></br> 
+            2. DAO Growth (buying more properties)
+            <br></br> 
+            3. Loan-Repayment (this one goes straight to the Individuals student loans)
             </p> 
         </div>  
         <img src={list} alt='List' className='list_img'/>
