@@ -40,11 +40,7 @@ function Header() {
               Apply Now!
             </span>
           </button>
-           <button className='main_button'>
-            <span className="front">
               <Mint />
-            </span>
-          </button>
         </div>
         <img src={House} alt='house' className='main_house'/>
       </main> 

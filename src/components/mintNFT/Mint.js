@@ -30,12 +30,6 @@ const Mint = () => {
     }
   }
 
-  const comingSoon = async () => {
-
-        alert("Not Yet Silly!");
-        return;
-  }
-
   const connectWallet = async () => {
     try {
       const { ethereum } = window;
@@ -85,8 +79,10 @@ const Mint = () => {
 
   // Render Methods
   const renderNotConnectedContainer = () => (
-    <button onClick={comingSoon} className="cta-button connect-wallet-button">
-      Coming Soon!
+    <button onClick={connectWallet} className="main_button">
+      <span className="front">
+        Connect Wallet
+      </span>
     </button>
   );
 
@@ -99,9 +95,9 @@ const Mint = () => {
           {currentAccount === "" ? (
             renderNotConnectedContainer()
           ) : (
-            <button onClick={askContractToMintNft} className='main_button'>
+           <button onClick={askContractToMintNft} className='main_button'>
             <span className="front">
-              Connect Wallet
+              Mint
             </span>
           </button>
           )}
