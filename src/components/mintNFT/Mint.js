@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 import mintingContract from '../../contracts/our_house_contract.json';
 
-const CONTRACT_ADDRESS = "0x547ce1964f9820d260d4995a8290c6291fc266a7";
+const CONTRACT_ADDRESS = "0xa79086B73741A5826575B4580009aaF41D7d645B";
 
 const Mint = () => {
 

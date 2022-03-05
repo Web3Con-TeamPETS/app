@@ -425,13 +425,6 @@
               "type": "function"
             },
             {
-              "inputs": [],
-              "name": "toggleSaleActive",
-              "outputs": [],
-              "stateMutability": "nonpayable",
-              "type": "function"
-            },
-            {
               "inputs": [
                 {
                   "internalType": "uint256",
@@ -975,13 +968,6 @@
                 }
               ],
               "stateMutability": "view",
-              "type": "function"
-            },
-            {
-              "inputs": [],
-              "name": "toggleSaleActive",
-              "outputs": [],
-              "stateMutability": "nonpayable",
               "type": "function"
             },
             {
