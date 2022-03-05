@@ -1,6 +1,7 @@
 import React from 'react';
 import './header.css'
 import House from '../../assets/Home_perspective_matte_s.png'
+import Mint from '../mintNFT/Mint';
 
 function Header() {
   return (
@@ -37,6 +38,11 @@ function Header() {
           <button className='main_button'>
             <span className="front">
               Apply Now!
+            </span>
+          </button>
+           <button className='main_button'>
+            <span className="front">
+              <Mint />
             </span>
           </button>
         </div>

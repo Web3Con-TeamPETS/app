@@ -1,10 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
-import twitterLogo from '../../assets/twitter-logo.svg';
 import mintingContract from '../../contracts/our_house_contract.json';
 
-const TWITTER_HANDLE = 'Web3con handle here';
-const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const CONTRACT_ADDRESS = "0x547ce1964f9820d260d4995a8290c6291fc266a7";
 
 const Mint = () => {
@@ -98,33 +95,17 @@ const Mint = () => {
   },)
 
   return (
-    <div className="App">
-      <div className="container">
-        <div className="header-container">
-          <p className="sub-text">
-            Mint our NFT to help fund our project!
-          </p>
+        <div>
           {currentAccount === "" ? (
             renderNotConnectedContainer()
           ) : (
             <button onClick={askContractToMintNft} className='main_button'>
             <span className="front">
-              Mint Now
+              Connect Wallet
             </span>
           </button>
           )}
         </div>
-        <div className="footer-container">
-          <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-          <a
-            className="footer-text"
-            href={TWITTER_LINK}
-            target="_blank"
-            rel="noreferrer"
-          >{`@${TWITTER_HANDLE}`}</a>
-        </div>
-      </div>
-    </div>
   );
 };
 
