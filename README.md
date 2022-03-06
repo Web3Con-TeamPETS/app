@@ -9,10 +9,6 @@ To get started, clone this repo and follow these commands:
 3. Run `npm run start` to start the project
 
 **************************************************************************************************
-  
-UI allows users to view dividend stocks (1,000 data points sourced from two APIs) by sector
-
-![UI for OurHouseDAO](img url will go here)
 **************************************************************************************************
 
 
